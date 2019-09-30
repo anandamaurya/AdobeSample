@@ -1,0 +1,106 @@
+{
+  "lastModified": "2019-08-13T02:38:28.986Z",
+  "marketingCloud": {
+    "org": "564081D7572C6D9F7F000101@AdobeOrg"
+  },
+  "target": {
+    "clientCode": "capgeminisandbox",
+    "timeout": 5
+  },
+  "audienceManager": {
+    "server": "capgeminisandbox.demdex.com",
+    "analyticsForwardingEnabled": true,
+    "timeout": 5
+  },
+  "acquisition": {
+    "server": "c00.adobe.com",
+    "appid": "bdad53725a7213c13f97a7b71e0e0b44afb9598e2a9584a2baa991bf49c21a02"
+  },
+  "analytics": {
+    "rsids": "geo1xxloncap.ios.app",
+    "server": "capgeminisandbox.sc.omtrdc.net",
+    "ssl": true,
+    "offlineEnabled": true,
+    "charset": "UTF-8",
+    "lifecycleTimeout": 300,
+    "privacyDefault": "optedin",
+    "batchLimit": 0,
+    "timezone": "AEST",
+    "timezoneOffset": 600,
+    "referrerTimeout": 5,
+    "backdateSessionInfo": false,
+    "poi": []
+  },
+  "messages": [
+    {
+      "template": "callback",
+      "startDate": 0,
+      "endDate": 2524730400,
+      "showRule": "always",
+      "showOffline": true,
+      "messageId": "bf6fb5d2-9850-4a71-8c81-4691f4f9f79f",
+      "payload": {
+        "templateurl": "https://acs246eu-t.adobesandbox.com/r/?id={broadlogId},{deliveryId},{action}",
+        "templatebody": "ewoicHVzaFBsYXRmb3JtIjoiYXBucyIsCiJtYXJrZXRpbmdDbG91ZElkIjoieyVtY2lkJX0iCn0=",
+        "contenttype": "application/json",
+        "timeout": 2
+      },
+      "audiences": [],
+      "triggers": [
+        {
+          "key": "a.LaunchEvent",
+          "matches": "ex",
+          "values": null
+        }
+      ]
+    },
+    {
+      "template": "callback",
+      "startDate": 0,
+      "endDate": 2524730400,
+      "showRule": "always",
+      "showOffline": true,
+      "messageId": "90f6fd21-aa7c-4f50-b705-3324d9e1f16c",
+      "payload": {
+        "templateurl": "https://acs246eu.campaign-sandbox.adobe.com/rest/head/mobileApp/@jFfNR7R_YahW5TaUbYNGaC3He--IqYYtas8SafOV97kjgGBwiFlxqr0O-qiNTLQODWP3FkpQ3VUb8pEiqyEVieFLK8mYfCgf1MZYu0urVAYFjASXiydOeEcOYTGZQZI3CdWAEOqsUMizuyZc27J0vYC09fU/subscriptions/{%mcid%}",
+        "templatebody": "ewoicHVzaFBsYXRmb3JtIjoiYXBucyIsCiJtYXJrZXRpbmdDbG91ZElkIjoieyVtY2lkJX0iLAoicmVnaXN0cmF0aW9uVG9rZW4iOiJ7JXB1c2hpZCV9Igp9",
+        "contenttype": "application/json",
+        "timeout": 2
+      },
+      "audiences": [],
+      "triggers": [
+        {
+          "key": "a.LaunchEvent",
+          "matches": "nx",
+          "values": null
+        }
+      ]
+    },
+    {
+      "template": "callback",
+      "startDate": 0,
+      "endDate": 2524730400,
+      "showRule": "always",
+      "showOffline": true,
+      "messageId": "8e207ea0-b9c8-42e2-b2bc-4d249124945a",
+      "payload": {
+        "templateurl": "https://acs246eu.campaign-sandbox.adobe.com/rest/head/mobileApp/@jFfNR7R_YahW5TaUbYNGaC3He--IqYYtas8SafOV97kjgGBwiFlxqr0O-qiNTLQODWP3FkpQ3VUb8pEiqyEVieFLK8mYfCgf1MZYu0urVAYFjASXiydOeEcOYTGZQZI3CdWAEOqsUMizuyZc27J0vYC09fU/subscriptions/{%mcid%}",
+        "templatebody": "ewoidXNlcktleSI6ICJ7dXNlcktleX0iLAoicHVzaFBsYXRmb3JtIjoiYXBucyIsCiJtYXJrZXRpbmdDbG91ZElkIjoieyVtY2lkJX0iLAoiY3VzRW1haWwiOiJ7ZW1haWx9Igp9",
+        "contenttype": "application/json",
+        "timeout": 2
+      },
+      "audiences": [],
+      "triggers": [
+        {
+          "key": "a.LaunchEvent",
+          "matches": "nx",
+          "values": null
+        }
+      ]
+    }
+  ],
+  "remotes": {
+    "analytics.poi": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-5d5100ba64746d095700095b.json",
+    "messages": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-5d5100ba64746d0858000941.json"
+  }
+}
