@@ -8,9 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		0935EB071C7B8729007FBCF3 /* AdobeMobileLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54073E1E1B67EE3B00CD9E83 /* AdobeMobileLibrary.a */; };
-		09F8FF0C1C6BEBD40035B986 /* PostbackController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F8FF0B1C6BEBD40035B986 /* PostbackController.m */; };
+		178B76EE23692D6A005F2FBC /* caplogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 178B76E423692D6A005F2FBC /* caplogo.png */; };
+		178B76EF23692D6A005F2FBC /* caplogo-removebg-preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 178B76E523692D6A005F2FBC /* caplogo-removebg-preview.png */; };
+		178B76F023692D6A005F2FBC /* 50off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 178B76E823692D6A005F2FBC /* 50off@2x.png */; };
+		178B76F123692D6A005F2FBC /* bogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 178B76E923692D6A005F2FBC /* bogo@2x.png */; };
+		178B76F223692D6A005F2FBC /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 178B76EB23692D6A005F2FBC /* background.png */; };
+		178B76F323692D6A005F2FBC /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 178B76EC23692D6A005F2FBC /* checked.png */; };
+		178B76F423692D6A005F2FBC /* left-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 178B76ED23692D6A005F2FBC /* left-menu.png */; };
+		178B76F923692DF6005F2FBC /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178B76F723692DF6005F2FBC /* Coordinator.swift */; };
+		178B76FA23692DF6005F2FBC /* SSAppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178B76F823692DF6005F2FBC /* SSAppCoordinator.swift */; };
+		178B76FD23692E63005F2FBC /* SideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178B76FC23692E63005F2FBC /* SideMenu.storyboard */; };
+		178B770123692EC8005F2FBC /* SideMenuHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178B76FF23692EC8005F2FBC /* SideMenuHeaderCell.swift */; };
+		178B770223692EC8005F2FBC /* SideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178B770023692EC8005F2FBC /* SideMenuCell.swift */; };
+		178B770623692F40005F2FBC /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178B770423692F40005F2FBC /* SideMenuViewController.swift */; };
+		178B770723692F40005F2FBC /* ABDSideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178B770523692F40005F2FBC /* ABDSideMenuTableViewController.swift */; };
+		178B771223692F75005F2FBC /* AutoCompleteTextFieldProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178B770823692F75005F2FBC /* AutoCompleteTextFieldProtocols.swift */; };
+		178B771323692F75005F2FBC /* AutoCompleteTextFieldConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178B770923692F75005F2FBC /* AutoCompleteTextFieldConstants.swift */; };
+		178B771423692F75005F2FBC /* LFLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178B770A23692F75005F2FBC /* LFLoginController.swift */; };
+		178B771523692F75005F2FBC /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178B770B23692F75005F2FBC /* DetailTableViewCell.swift */; };
+		178B771623692F75005F2FBC /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178B770C23692F75005F2FBC /* PaymentViewController.swift */; };
+		178B771723692F75005F2FBC /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178B770D23692F75005F2FBC /* DetailTableViewCell.xib */; };
+		178B771823692F75005F2FBC /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178B770E23692F75005F2FBC /* DetailsViewController.swift */; };
+		178B771923692F75005F2FBC /* StoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178B770F23692F75005F2FBC /* StoriesTableViewController.swift */; };
+		178B771A23692F75005F2FBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178B771023692F75005F2FBC /* ViewController.swift */; };
+		178B771B23692F75005F2FBC /* AutoCompleteTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178B771123692F75005F2FBC /* AutoCompleteTextField.swift */; };
 		17AA5C03234594A60097DE56 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AA5C02234594A60097DE56 /* NotificationService.swift */; };
 		17AA5C07234594A60097DE56 /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 17AA5C00234594A60097DE56 /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2C1873127BA0DD727DCA1A01 /* Pods_ADBMobileSamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52778B9FD09F151611A5DF37 /* Pods_ADBMobileSamples.framework */; };
 		E9DCE56717E7B13300292D1E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DCE56617E7B13300292D1E /* MediaPlayer.framework */; };
 		F037D50F17E37B75006A2F4C /* imagelist.plist in Resources */ = {isa = PBXBuildFile; fileRef = F037D50E17E37B75006A2F4C /* imagelist.plist */; };
 		F05CF6B517E2A7BA00146B88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05CF6B417E2A7BA00146B88 /* UIKit.framework */; };
@@ -35,14 +59,6 @@
 		F09CD14E1A8180C800ED1890 /* bogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F09CD14C1A8180C800ED1890 /* bogo@2x.png */; };
 		F09CD1511A8180DC00ED1890 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = F09CD1501A8180DC00ED1890 /* background.png */; };
 		F09CD1541A8180FC00ED1890 /* NSString+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = F09CD1531A8180FC00ED1890 /* NSString+Color.m */; };
-		F09CD16D1A81815E00ED1890 /* InAppMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09CD15B1A81815E00ED1890 /* InAppMessageViewController.m */; };
-		F09CD16E1A81815E00ED1890 /* LifetimeValueController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09CD15D1A81815E00ED1890 /* LifetimeValueController.m */; };
-		F09CD16F1A81815E00ED1890 /* LocationTargetingController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09CD15F1A81815E00ED1890 /* LocationTargetingController.m */; };
-		F09CD1701A81815E00ED1890 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09CD1611A81815E00ED1890 /* MasterViewController.m */; };
-		F09CD1721A81815E00ED1890 /* MediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09CD1651A81815E00ED1890 /* MediaViewController.m */; };
-		F09CD1731A81815E00ED1890 /* PrivacyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09CD1671A81815E00ED1890 /* PrivacyViewController.m */; };
-		F09CD1741A81815E00ED1890 /* SimpleTrackingController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09CD1691A81815E00ED1890 /* SimpleTrackingController.m */; };
-		F09CD1751A81815E00ED1890 /* TimedActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09CD16B1A81815E00ED1890 /* TimedActionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,16 +86,42 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		09F8FF0A1C6BEBD40035B986 /* PostbackController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PostbackController.h; path = Controllers/PostbackController.h; sourceTree = "<group>"; };
-		09F8FF0B1C6BEBD40035B986 /* PostbackController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PostbackController.m; path = Controllers/PostbackController.m; sourceTree = "<group>"; };
 		1741555F23419C100012429A /* ADBMobileSamples.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ADBMobileSamples.entitlements; sourceTree = "<group>"; };
+		178B76E423692D6A005F2FBC /* caplogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caplogo.png; sourceTree = "<group>"; };
+		178B76E523692D6A005F2FBC /* caplogo-removebg-preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "caplogo-removebg-preview.png"; sourceTree = "<group>"; };
+		178B76E823692D6A005F2FBC /* 50off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "50off@2x.png"; sourceTree = "<group>"; };
+		178B76E923692D6A005F2FBC /* bogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bogo@2x.png"; sourceTree = "<group>"; };
+		178B76EB23692D6A005F2FBC /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		178B76EC23692D6A005F2FBC /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		178B76ED23692D6A005F2FBC /* left-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-menu.png"; sourceTree = "<group>"; };
+		178B76F623692DF5005F2FBC /* ADBMobileSamples-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ADBMobileSamples-Bridging-Header.h"; sourceTree = "<group>"; };
+		178B76F723692DF6005F2FBC /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		178B76F823692DF6005F2FBC /* SSAppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSAppCoordinator.swift; sourceTree = "<group>"; };
+		178B76FC23692E63005F2FBC /* SideMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SideMenu.storyboard; sourceTree = "<group>"; };
+		178B76FF23692EC8005F2FBC /* SideMenuHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderCell.swift; sourceTree = "<group>"; };
+		178B770023692EC8005F2FBC /* SideMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuCell.swift; sourceTree = "<group>"; };
+		178B770423692F40005F2FBC /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		178B770523692F40005F2FBC /* ABDSideMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABDSideMenuTableViewController.swift; sourceTree = "<group>"; };
+		178B770823692F75005F2FBC /* AutoCompleteTextFieldProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoCompleteTextFieldProtocols.swift; sourceTree = "<group>"; };
+		178B770923692F75005F2FBC /* AutoCompleteTextFieldConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoCompleteTextFieldConstants.swift; sourceTree = "<group>"; };
+		178B770A23692F75005F2FBC /* LFLoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFLoginController.swift; sourceTree = "<group>"; };
+		178B770B23692F75005F2FBC /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		178B770C23692F75005F2FBC /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		178B770D23692F75005F2FBC /* DetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
+		178B770E23692F75005F2FBC /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		178B770F23692F75005F2FBC /* StoriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriesTableViewController.swift; sourceTree = "<group>"; };
+		178B771023692F75005F2FBC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		178B771123692F75005F2FBC /* AutoCompleteTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoCompleteTextField.swift; sourceTree = "<group>"; };
 		17AA5C00234594A60097DE56 /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		17AA5C02234594A60097DE56 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		17AA5C04234594A60097DE56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52778B9FD09F151611A5DF37 /* Pods_ADBMobileSamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADBMobileSamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54073E1E1B67EE3B00CD9E83 /* AdobeMobileLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AdobeMobileLibrary.a; sourceTree = "<group>"; };
 		E95D91C51829B958006BB662 /* ADBMobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBMobile.h; sourceTree = "<group>"; };
 		E9DCE56617E7B13300292D1E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		E9DCE56B17E7B28200292D1E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EA434741EFB7AD9742B302BB /* Pods-ADBMobileSamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADBMobileSamples.debug.xcconfig"; path = "Target Support Files/Pods-ADBMobileSamples/Pods-ADBMobileSamples.debug.xcconfig"; sourceTree = "<group>"; };
+		EB05DE51B39F1EFA21D3FCD0 /* Pods-ADBMobileSamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADBMobileSamples.release.xcconfig"; path = "Target Support Files/Pods-ADBMobileSamples/Pods-ADBMobileSamples.release.xcconfig"; sourceTree = "<group>"; };
 		F037D50E17E37B75006A2F4C /* imagelist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = imagelist.plist; sourceTree = "<group>"; };
 		F03852BE17EA4D3E00EB0334 /* ADBS7ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBS7ImageView.h; sourceTree = "<group>"; };
 		F03852BF17EA4D3E00EB0334 /* ADBScene7.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = ADBScene7.a; sourceTree = "<group>"; };
@@ -110,22 +152,6 @@
 		F09CD1501A8180DC00ED1890 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = Assets/Backgrounds/background.png; sourceTree = "<group>"; };
 		F09CD1521A8180FC00ED1890 /* NSString+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Color.h"; path = "Categories/NSString+Color.h"; sourceTree = "<group>"; };
 		F09CD1531A8180FC00ED1890 /* NSString+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Color.m"; path = "Categories/NSString+Color.m"; sourceTree = "<group>"; };
-		F09CD15A1A81815E00ED1890 /* InAppMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InAppMessageViewController.h; path = Controllers/InAppMessageViewController.h; sourceTree = "<group>"; };
-		F09CD15B1A81815E00ED1890 /* InAppMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InAppMessageViewController.m; path = Controllers/InAppMessageViewController.m; sourceTree = "<group>"; };
-		F09CD15C1A81815E00ED1890 /* LifetimeValueController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LifetimeValueController.h; path = Controllers/LifetimeValueController.h; sourceTree = "<group>"; };
-		F09CD15D1A81815E00ED1890 /* LifetimeValueController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LifetimeValueController.m; path = Controllers/LifetimeValueController.m; sourceTree = "<group>"; };
-		F09CD15E1A81815E00ED1890 /* LocationTargetingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationTargetingController.h; path = Controllers/LocationTargetingController.h; sourceTree = "<group>"; };
-		F09CD15F1A81815E00ED1890 /* LocationTargetingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationTargetingController.m; path = Controllers/LocationTargetingController.m; sourceTree = "<group>"; };
-		F09CD1601A81815E00ED1890 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = Controllers/MasterViewController.h; sourceTree = "<group>"; };
-		F09CD1611A81815E00ED1890 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = Controllers/MasterViewController.m; sourceTree = "<group>"; };
-		F09CD1641A81815E00ED1890 /* MediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MediaViewController.h; path = Controllers/MediaViewController.h; sourceTree = "<group>"; };
-		F09CD1651A81815E00ED1890 /* MediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MediaViewController.m; path = Controllers/MediaViewController.m; sourceTree = "<group>"; };
-		F09CD1661A81815E00ED1890 /* PrivacyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrivacyViewController.h; path = Controllers/PrivacyViewController.h; sourceTree = "<group>"; };
-		F09CD1671A81815E00ED1890 /* PrivacyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrivacyViewController.m; path = Controllers/PrivacyViewController.m; sourceTree = "<group>"; };
-		F09CD1681A81815E00ED1890 /* SimpleTrackingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleTrackingController.h; path = Controllers/SimpleTrackingController.h; sourceTree = "<group>"; };
-		F09CD1691A81815E00ED1890 /* SimpleTrackingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleTrackingController.m; path = Controllers/SimpleTrackingController.m; sourceTree = "<group>"; };
-		F09CD16A1A81815E00ED1890 /* TimedActionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimedActionController.h; path = Controllers/TimedActionController.h; sourceTree = "<group>"; };
-		F09CD16B1A81815E00ED1890 /* TimedActionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimedActionController.m; path = Controllers/TimedActionController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,12 +179,91 @@
 				F05CF6B517E2A7BA00146B88 /* UIKit.framework in Frameworks */,
 				F05CF6B717E2A7BA00146B88 /* Foundation.framework in Frameworks */,
 				F05CF6B917E2A7BA00146B88 /* CoreGraphics.framework in Frameworks */,
+				2C1873127BA0DD727DCA1A01 /* Pods_ADBMobileSamples.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		178B76E323692CFC005F2FBC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				178B76E623692D6A005F2FBC /* Assets */,
+				178B76E523692D6A005F2FBC /* caplogo-removebg-preview.png */,
+				178B76E423692D6A005F2FBC /* caplogo.png */,
+				178B76EC23692D6A005F2FBC /* checked.png */,
+				178B76ED23692D6A005F2FBC /* left-menu.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		178B76E623692D6A005F2FBC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				178B76E723692D6A005F2FBC /* Banners */,
+				178B76EA23692D6A005F2FBC /* Backgrounds */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		178B76E723692D6A005F2FBC /* Banners */ = {
+			isa = PBXGroup;
+			children = (
+				178B76E823692D6A005F2FBC /* 50off@2x.png */,
+				178B76E923692D6A005F2FBC /* bogo@2x.png */,
+			);
+			path = Banners;
+			sourceTree = "<group>";
+		};
+		178B76EA23692D6A005F2FBC /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				178B76EB23692D6A005F2FBC /* background.png */,
+			);
+			path = Backgrounds;
+			sourceTree = "<group>";
+		};
+		178B76F523692DB9005F2FBC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				178B76F723692DF6005F2FBC /* Coordinator.swift */,
+				178B76F823692DF6005F2FBC /* SSAppCoordinator.swift */,
+				F05CF6C317E2A7BA00146B88 /* AppDelegate.h */,
+				F05CF6C417E2A7BA00146B88 /* AppDelegate.m */,
+				178B76F623692DF5005F2FBC /* ADBMobileSamples-Bridging-Header.h */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		178B76FB23692E34005F2FBC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				178B76FC23692E63005F2FBC /* SideMenu.storyboard */,
+				F05CF6CC17E2A7BA00146B88 /* MainStoryboard_iPhone.storyboard */,
+				F0918FB21B5DD9B400CD54B4 /* MainStoryboard_iPad.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		178B76FE23692E99005F2FBC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				178B770023692EC8005F2FBC /* SideMenuCell.swift */,
+				178B76FF23692EC8005F2FBC /* SideMenuHeaderCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		178B770323692F16005F2FBC /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				178B770523692F40005F2FBC /* ABDSideMenuTableViewController.swift */,
+				178B770423692F40005F2FBC /* SideMenuViewController.swift */,
+			);
+			name = SideMenu;
+			sourceTree = "<group>";
+		};
 		17AA5C01234594A60097DE56 /* NotificationService */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +271,15 @@
 				17AA5C04234594A60097DE56 /* Info.plist */,
 			);
 			path = NotificationService;
+			sourceTree = "<group>";
+		};
+		44D471E4D6A5350540114296 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA434741EFB7AD9742B302BB /* Pods-ADBMobileSamples.debug.xcconfig */,
+				EB05DE51B39F1EFA21D3FCD0 /* Pods-ADBMobileSamples.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		F03852BD17EA4D2400EB0334 /* S7 */ = {
@@ -193,6 +307,7 @@
 				17AA5C01234594A60097DE56 /* NotificationService */,
 				F05CF6B317E2A7BA00146B88 /* Frameworks */,
 				F05CF6B217E2A7BA00146B88 /* Products */,
+				44D471E4D6A5350540114296 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -222,6 +337,7 @@
 				F05CF6B417E2A7BA00146B88 /* UIKit.framework */,
 				F05CF74517E2B57A00146B88 /* libsqlite3.0.dylib */,
 				F05CF75317E2B80000146B88 /* libz.dylib */,
+				52778B9FD09F151611A5DF37 /* Pods_ADBMobileSamples.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -229,14 +345,14 @@
 		F05CF6BA17E2A7BA00146B88 /* ADBMobileSamples */ = {
 			isa = PBXGroup;
 			children = (
+				178B76FE23692E99005F2FBC /* View */,
+				178B76FB23692E34005F2FBC /* Storyboard */,
+				178B76E323692CFC005F2FBC /* Resources */,
 				1741555F23419C100012429A /* ADBMobileSamples.entitlements */,
 				F05CF6E517E2ABA200146B88 /* Assets */,
 				F05CF70B17E2B0FF00146B88 /* Categories */,
 				F05CF6DD17E2AA4800146B88 /* Controllers */,
-				F05CF6C317E2A7BA00146B88 /* AppDelegate.h */,
-				F05CF6C417E2A7BA00146B88 /* AppDelegate.m */,
-				F05CF6CC17E2A7BA00146B88 /* MainStoryboard_iPhone.storyboard */,
-				F0918FB21B5DD9B400CD54B4 /* MainStoryboard_iPad.storyboard */,
+				178B76F523692DB9005F2FBC /* AppDelegate */,
 				F09CD1491A817D4400ED1890 /* Images.xcassets */,
 				F05CF6BB17E2A7BA00146B88 /* Supporting Files */,
 			);
@@ -257,24 +373,17 @@
 		F05CF6DD17E2AA4800146B88 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				09F8FF0A1C6BEBD40035B986 /* PostbackController.h */,
-				09F8FF0B1C6BEBD40035B986 /* PostbackController.m */,
-				F09CD15A1A81815E00ED1890 /* InAppMessageViewController.h */,
-				F09CD15B1A81815E00ED1890 /* InAppMessageViewController.m */,
-				F09CD15C1A81815E00ED1890 /* LifetimeValueController.h */,
-				F09CD15D1A81815E00ED1890 /* LifetimeValueController.m */,
-				F09CD15E1A81815E00ED1890 /* LocationTargetingController.h */,
-				F09CD15F1A81815E00ED1890 /* LocationTargetingController.m */,
-				F09CD1601A81815E00ED1890 /* MasterViewController.h */,
-				F09CD1611A81815E00ED1890 /* MasterViewController.m */,
-				F09CD1641A81815E00ED1890 /* MediaViewController.h */,
-				F09CD1651A81815E00ED1890 /* MediaViewController.m */,
-				F09CD1661A81815E00ED1890 /* PrivacyViewController.h */,
-				F09CD1671A81815E00ED1890 /* PrivacyViewController.m */,
-				F09CD1681A81815E00ED1890 /* SimpleTrackingController.h */,
-				F09CD1691A81815E00ED1890 /* SimpleTrackingController.m */,
-				F09CD16A1A81815E00ED1890 /* TimedActionController.h */,
-				F09CD16B1A81815E00ED1890 /* TimedActionController.m */,
+				178B771123692F75005F2FBC /* AutoCompleteTextField.swift */,
+				178B770923692F75005F2FBC /* AutoCompleteTextFieldConstants.swift */,
+				178B770823692F75005F2FBC /* AutoCompleteTextFieldProtocols.swift */,
+				178B770E23692F75005F2FBC /* DetailsViewController.swift */,
+				178B770B23692F75005F2FBC /* DetailTableViewCell.swift */,
+				178B770D23692F75005F2FBC /* DetailTableViewCell.xib */,
+				178B770A23692F75005F2FBC /* LFLoginController.swift */,
+				178B770C23692F75005F2FBC /* PaymentViewController.swift */,
+				178B770F23692F75005F2FBC /* StoriesTableViewController.swift */,
+				178B771023692F75005F2FBC /* ViewController.swift */,
+				178B770323692F16005F2FBC /* SideMenu */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -341,10 +450,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F05CF6DA17E2A7BA00146B88 /* Build configuration list for PBXNativeTarget "ADBMobileSamples" */;
 			buildPhases = (
+				65BAA83B37F8772F00186F2A /* [CP] Check Pods Manifest.lock */,
 				F05CF6AD17E2A7BA00146B88 /* Sources */,
 				F05CF6AE17E2A7BA00146B88 /* Frameworks */,
 				F05CF6AF17E2A7BA00146B88 /* Resources */,
 				17AA5C0B234594A60097DE56 /* Embed App Extensions */,
+				A5AD27311A078335A658DA0C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -373,6 +484,7 @@
 					};
 					F05CF6B017E2A7BA00146B88 = {
 						DevelopmentTeam = Y94ZL89P28;
+						LastSwiftMigration = 1110;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -415,19 +527,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				178B76F323692D6A005F2FBC /* checked.png in Resources */,
 				F09CD14E1A8180C800ED1890 /* bogo@2x.png in Resources */,
 				F09CD1511A8180DC00ED1890 /* background.png in Resources */,
 				F05CF6BF17E2A7BA00146B88 /* InfoPlist.strings in Resources */,
+				178B76EE23692D6A005F2FBC /* caplogo.png in Resources */,
 				F09CD14D1A8180C800ED1890 /* 50off@2x.png in Resources */,
 				F05CF6CE17E2A7BA00146B88 /* MainStoryboard_iPhone.storyboard in Resources */,
 				F09CD14A1A817D4400ED1890 /* Images.xcassets in Resources */,
+				178B76FD23692E63005F2FBC /* SideMenu.storyboard in Resources */,
+				178B76EF23692D6A005F2FBC /* caplogo-removebg-preview.png in Resources */,
+				178B771723692F75005F2FBC /* DetailTableViewCell.xib in Resources */,
 				F05CF74017E2B2BB00146B88 /* ADBMobileConfig.json in Resources */,
+				178B76F223692D6A005F2FBC /* background.png in Resources */,
+				178B76F023692D6A005F2FBC /* 50off@2x.png in Resources */,
 				F0918FB41B5DD9B400CD54B4 /* MainStoryboard_iPad.storyboard in Resources */,
+				178B76F423692D6A005F2FBC /* left-menu.png in Resources */,
+				178B76F123692D6A005F2FBC /* bogo@2x.png in Resources */,
 				F037D50F17E37B75006A2F4C /* imagelist.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65BAA83B37F8772F00186F2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ADBMobileSamples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5AD27311A078335A658DA0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ADBMobileSamples/Pods-ADBMobileSamples-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DrawerMenu/DrawerMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DrawerMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ADBMobileSamples/Pods-ADBMobileSamples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		17AA5BFC234594A60097DE56 /* Sources */ = {
@@ -442,18 +608,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				178B770623692F40005F2FBC /* SideMenuViewController.swift in Sources */,
 				F05CF6C117E2A7BA00146B88 /* main.m in Sources */,
-				F09CD1751A81815E00ED1890 /* TimedActionController.m in Sources */,
+				178B76F923692DF6005F2FBC /* Coordinator.swift in Sources */,
+				178B771B23692F75005F2FBC /* AutoCompleteTextField.swift in Sources */,
+				178B771523692F75005F2FBC /* DetailTableViewCell.swift in Sources */,
+				178B771323692F75005F2FBC /* AutoCompleteTextFieldConstants.swift in Sources */,
+				178B771223692F75005F2FBC /* AutoCompleteTextFieldProtocols.swift in Sources */,
+				178B771923692F75005F2FBC /* StoriesTableViewController.swift in Sources */,
 				F05CF6C517E2A7BA00146B88 /* AppDelegate.m in Sources */,
-				F09CD1741A81815E00ED1890 /* SimpleTrackingController.m in Sources */,
-				F09CD16D1A81815E00ED1890 /* InAppMessageViewController.m in Sources */,
-				F09CD16E1A81815E00ED1890 /* LifetimeValueController.m in Sources */,
-				09F8FF0C1C6BEBD40035B986 /* PostbackController.m in Sources */,
+				178B771623692F75005F2FBC /* PaymentViewController.swift in Sources */,
+				178B771A23692F75005F2FBC /* ViewController.swift in Sources */,
+				178B76FA23692DF6005F2FBC /* SSAppCoordinator.swift in Sources */,
+				178B770723692F40005F2FBC /* ABDSideMenuTableViewController.swift in Sources */,
+				178B770223692EC8005F2FBC /* SideMenuCell.swift in Sources */,
+				178B771423692F75005F2FBC /* LFLoginController.swift in Sources */,
 				F09CD1541A8180FC00ED1890 /* NSString+Color.m in Sources */,
-				F09CD16F1A81815E00ED1890 /* LocationTargetingController.m in Sources */,
-				F09CD1731A81815E00ED1890 /* PrivacyViewController.m in Sources */,
-				F09CD1701A81815E00ED1890 /* MasterViewController.m in Sources */,
-				F09CD1721A81815E00ED1890 /* MediaViewController.m in Sources */,
+				178B770123692EC8005F2FBC /* SideMenuHeaderCell.swift in Sources */,
+				178B771823692F75005F2FBC /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,6 +833,7 @@
 		};
 		F05CF6DB17E2A7BA00146B88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA434741EFB7AD9742B302BB /* Pods-ADBMobileSamples.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -675,13 +848,17 @@
 				GCC_PREFIX_HEADER = "ADBMobileSamples/ADBMobileSamples-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "ADBMobileSamples/ADBMobileSamples-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AdobeMobile",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ADBMobileSamples/ADBMobileSamples-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -689,6 +866,7 @@
 		};
 		F05CF6DC17E2A7BA00146B88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB05DE51B39F1EFA21D3FCD0 /* Pods-ADBMobileSamples.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -703,13 +881,16 @@
 				GCC_PREFIX_HEADER = "ADBMobileSamples/ADBMobileSamples-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "ADBMobileSamples/ADBMobileSamples-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AdobeMobile",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ADBMobileSamples/ADBMobileSamples-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};

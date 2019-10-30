@@ -1,0 +1,20 @@
+PODS:
+  - DrawerMenu (1.0.1)
+  - SideMenu (6.4.5)
+
+DEPENDENCIES:
+  - DrawerMenu
+  - SideMenu
+
+SPEC REPOS:
+  trunk:
+    - DrawerMenu
+    - SideMenu
+
+SPEC CHECKSUMS:
+  DrawerMenu: f6ca91901e2b21086e3c19bcca278d3d3127e85f
+  SideMenu: d4e7fd593af1eda94e41a7ac35b3664702c865f3
+
+PODFILE CHECKSUM: def307ae9778abbee8c94494fe33ad937d89cab4
+
+COCOAPODS: 1.8.4

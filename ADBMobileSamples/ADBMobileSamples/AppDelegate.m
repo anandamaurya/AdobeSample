@@ -12,13 +12,6 @@ written permission of Adobe.
 **************************************************************************/
 
 #import "AppDelegate.h"
-#import "SimpleTrackingController.h"
-#import "PostbackController.h"
-#import "InAppMessageViewController.h"
-#import "LifetimeValueController.h"
-#import "LocationTargetingController.h"
-#import "MediaViewController.h"
-#import "TimedActionController.h"
 
 
 // Uncomment after including the facebook sdks.
@@ -66,7 +59,7 @@ static NSString *const ACTION_SUNGLASSES_IDENTIFIER	=   @"SUNGLASSES_IDENTIFIER"
     [ADBMobile collectLifecycleDataWithAdditionalData:dict];
     [ADBMobile registerAdobeDataCallback:^(ADBMobileDataEvent event, NSDictionary * _Nullable adobeData) {
         if (event == ADBMobileDataEventDeepLink) {
-            [self handleDeepLink:adobeData[@"link_deferred"]];
+            //[self handleDeepLink:adobeData[@"link_deferred"]];
         }
     }];
     
@@ -122,52 +115,26 @@ static NSString *const ACTION_SUNGLASSES_IDENTIFIER	=   @"SUNGLASSES_IDENTIFIER"
 
 #pragma mark - deep link handlers
 - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
-    [self handleDeepLink:url];
+    //[self handleDeepLink:url];
     
     return YES;
 }
 
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *, id> *)options {
-    [self handleDeepLink:url];
+//    [self handleDeepLink:url];
     
     return YES;
 }
 
 #pragma mark - deep link helpers
-- (void) handleDeepLink:(NSURL *) url {
+- (void) handleDeepLink:(NSURL *) url withParamText:(NSString *)paramText{
     /*
      Handle your deep link
      */
+    NSLog(@"handleDeepLink is : %@",[url absoluteString]);
+    
     [ADBMobile trackAdobeDeepLink:url];
-    
-    MasterViewController* mainController = (MasterViewController*)  self.window.rootViewController;
-    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"MainStoryboard_iPhone"
-                                                             bundle: nil];
-    
-    NSString *path = url.path;
-    NSDictionary *queryParams = [self parseQueryString:url.query];
-    UIViewController *viewController;
-    if ([path isEqualToString:@"/SimpleTrackingController"]) {
-        viewController = [mainStoryboard instantiateViewControllerWithIdentifier: @"SimpleTrackingController"];
-    } else if ([path isEqualToString:@"/LifetimeValueController"]) {
-        viewController = [mainStoryboard instantiateViewControllerWithIdentifier: @"LifetimeValueController"];
-    } else if ([path isEqualToString:@"/LocationTargetingController"]) {
-        viewController = [mainStoryboard instantiateViewControllerWithIdentifier: @"LocationTargetingController"];
-    } else if ([path isEqualToString:@"/MediaViewController"]) {
-        viewController = [mainStoryboard instantiateViewControllerWithIdentifier: @"MediaViewController"];
-    } else if ([path isEqualToString:@"/TimedActionController"]) {
-        viewController = [mainStoryboard instantiateViewControllerWithIdentifier: @"TimedActionController"];
-    } else if ([path isEqualToString:@"/PostbackController"]) {
-        viewController = [mainStoryboard instantiateViewControllerWithIdentifier: @"PostbackController"];
-    } else if ([path isEqualToString:@"/InAppMessageViewController"]) {
-        viewController = [mainStoryboard instantiateViewControllerWithIdentifier: @"InAppMessageViewController"];
-    }
-    
-    if (viewController){
-        [mainController presentViewController:viewController animated:NO completion:^{}];
-    }
 }
-
 - (NSDictionary *)parseQueryString:(NSString *)query {
     NSMutableDictionary *dict = [[NSMutableDictionary alloc] initWithCapacity:6];
     NSArray *pairs = [query componentsSeparatedByString:@"&"];
