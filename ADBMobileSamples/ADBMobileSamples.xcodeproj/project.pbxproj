@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0935EB071C7B8729007FBCF3 /* AdobeMobileLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54073E1E1B67EE3B00CD9E83 /* AdobeMobileLibrary.a */; };
 		09F8FF0C1C6BEBD40035B986 /* PostbackController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F8FF0B1C6BEBD40035B986 /* PostbackController.m */; };
+		17AA5C03234594A60097DE56 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AA5C02234594A60097DE56 /* NotificationService.swift */; };
+		17AA5C07234594A60097DE56 /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 17AA5C00234594A60097DE56 /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E9DCE56717E7B13300292D1E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DCE56617E7B13300292D1E /* MediaPlayer.framework */; };
 		F037D50F17E37B75006A2F4C /* imagelist.plist in Resources */ = {isa = PBXBuildFile; fileRef = F037D50E17E37B75006A2F4C /* imagelist.plist */; };
 		F05CF6B517E2A7BA00146B88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05CF6B417E2A7BA00146B88 /* UIKit.framework */; };
@@ -43,10 +45,37 @@
 		F09CD1751A81815E00ED1890 /* TimedActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09CD16B1A81815E00ED1890 /* TimedActionController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		17AA5C05234594A60097DE56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F05CF6A917E2A7BA00146B88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17AA5BFF234594A60097DE56;
+			remoteInfo = NotificationService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		17AA5C0B234594A60097DE56 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				17AA5C07234594A60097DE56 /* NotificationService.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		09F8FF0A1C6BEBD40035B986 /* PostbackController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PostbackController.h; path = Controllers/PostbackController.h; sourceTree = "<group>"; };
 		09F8FF0B1C6BEBD40035B986 /* PostbackController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PostbackController.m; path = Controllers/PostbackController.m; sourceTree = "<group>"; };
 		1741555F23419C100012429A /* ADBMobileSamples.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ADBMobileSamples.entitlements; sourceTree = "<group>"; };
+		17AA5C00234594A60097DE56 /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		17AA5C02234594A60097DE56 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		17AA5C04234594A60097DE56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54073E1E1B67EE3B00CD9E83 /* AdobeMobileLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AdobeMobileLibrary.a; sourceTree = "<group>"; };
 		E95D91C51829B958006BB662 /* ADBMobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBMobile.h; sourceTree = "<group>"; };
 		E9DCE56617E7B13300292D1E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
@@ -100,6 +129,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		17AA5BFD234594A60097DE56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F05CF6AE17E2A7BA00146B88 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -123,6 +159,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17AA5C01234594A60097DE56 /* NotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				17AA5C02234594A60097DE56 /* NotificationService.swift */,
+				17AA5C04234594A60097DE56 /* Info.plist */,
+			);
+			path = NotificationService;
+			sourceTree = "<group>";
+		};
 		F03852BD17EA4D2400EB0334 /* S7 */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				F05CF6BA17E2A7BA00146B88 /* ADBMobileSamples */,
+				17AA5C01234594A60097DE56 /* NotificationService */,
 				F05CF6B317E2A7BA00146B88 /* Frameworks */,
 				F05CF6B217E2A7BA00146B88 /* Products */,
 			);
@@ -154,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				F05CF6B117E2A7BA00146B88 /* ADBMobileSamples.app */,
+				17AA5C00234594A60097DE56 /* NotificationService.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -273,6 +320,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		17AA5BFF234594A60097DE56 /* NotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17AA5C0A234594A60097DE56 /* Build configuration list for PBXNativeTarget "NotificationService" */;
+			buildPhases = (
+				17AA5BFC234594A60097DE56 /* Sources */,
+				17AA5BFD234594A60097DE56 /* Frameworks */,
+				17AA5BFE234594A60097DE56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationService;
+			productName = NotificationService;
+			productReference = 17AA5C00234594A60097DE56 /* NotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		F05CF6B017E2A7BA00146B88 /* ADBMobileSamples */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F05CF6DA17E2A7BA00146B88 /* Build configuration list for PBXNativeTarget "ADBMobileSamples" */;
@@ -280,10 +344,12 @@
 				F05CF6AD17E2A7BA00146B88 /* Sources */,
 				F05CF6AE17E2A7BA00146B88 /* Frameworks */,
 				F05CF6AF17E2A7BA00146B88 /* Resources */,
+				17AA5C0B234594A60097DE56 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				17AA5C06234594A60097DE56 /* PBXTargetDependency */,
 			);
 			name = ADBMobileSamples;
 			productName = ADBMobileSamples;
@@ -296,9 +362,15 @@
 		F05CF6A917E2A7BA00146B88 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Adobe;
 				TargetAttributes = {
+					17AA5BFF234594A60097DE56 = {
+						CreatedOnToolsVersion = 10.2.1;
+						DevelopmentTeam = Y94ZL89P28;
+						ProvisioningStyle = Automatic;
+					};
 					F05CF6B017E2A7BA00146B88 = {
 						DevelopmentTeam = Y94ZL89P28;
 						SystemCapabilities = {
@@ -326,11 +398,19 @@
 			projectRoot = "";
 			targets = (
 				F05CF6B017E2A7BA00146B88 /* ADBMobileSamples */,
+				17AA5BFF234594A60097DE56 /* NotificationService */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		17AA5BFE234594A60097DE56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F05CF6AF17E2A7BA00146B88 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,6 +430,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		17AA5BFC234594A60097DE56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17AA5C03234594A60097DE56 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F05CF6AD17E2A7BA00146B88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -370,6 +458,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17AA5C06234594A60097DE56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17AA5BFF234594A60097DE56 /* NotificationService */;
+			targetProxy = 17AA5C05234594A60097DE56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F05CF6BD17E2A7BA00146B88 /* InfoPlist.strings */ = {
@@ -399,6 +495,114 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		17AA5C08234594A60097DE56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Y94ZL89P28;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adobe.capgemini.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17AA5C09234594A60097DE56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Y94ZL89P28;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adobe.capgemini.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		F05CF6D817E2A7BA00146B88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -458,6 +662,7 @@
 		F05CF6DB17E2A7BA00146B88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
@@ -485,6 +690,7 @@
 		F05CF6DC17E2A7BA00146B88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
@@ -512,6 +718,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		17AA5C0A234594A60097DE56 /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17AA5C08234594A60097DE56 /* Debug */,
+				17AA5C09234594A60097DE56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F05CF6AC17E2A7BA00146B88 /* Build configuration list for PBXProject "ADBMobileSamples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

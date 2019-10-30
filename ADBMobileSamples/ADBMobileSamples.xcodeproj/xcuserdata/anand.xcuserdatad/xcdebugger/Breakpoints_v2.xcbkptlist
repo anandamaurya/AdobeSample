@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
+   uuid = "B914FA29-1598-4D19-B624-E19B8A8B2725"
    type = "1"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "FF0B2EB8-7571-42B5-B1B5-0DDEB84C9913"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ADBMobileSamples/AppDelegate.m"
-            timestampString = "591502660.095363"
+            filePath = "NotificationService/NotificationService.swift"
+            timestampString = "591775111.942881"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
-            landmarkName = "-application:didRegisterForRemoteNotificationsWithDeviceToken:"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "didReceive(_:withContentHandler:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

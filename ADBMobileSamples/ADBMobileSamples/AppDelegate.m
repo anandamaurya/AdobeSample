@@ -61,7 +61,7 @@ static NSString *const ACTION_SUNGLASSES_IDENTIFIER	=   @"SUNGLASSES_IDENTIFIER"
 		
 	[ADBMobile setDebugLogging:YES];
     NSDictionary *dict = @{
-                           @"userKey":@"Somanna Cariappa",
+                           @"userKey":@"Ajay Cariappa",
                            @"email":@"somanna.cariappa@capgemini.com"};
     [ADBMobile collectLifecycleDataWithAdditionalData:dict];
     [ADBMobile registerAdobeDataCallback:^(ADBMobileDataEvent event, NSDictionary * _Nullable adobeData) {
@@ -97,22 +97,24 @@ static NSString *const ACTION_SUNGLASSES_IDENTIFIER	=   @"SUNGLASSES_IDENTIFIER"
 	[ADBMobile setPushIdentifier:nil];
 }
 
-// app target < iOS 7
-- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
-	// only send the hit if the app is not active
-	if (application.applicationState != UIApplicationStateActive) {
-		[ADBMobile trackPushMessageClickThrough:userInfo];
-	}
-}
-
-// app target >= iOS 7
-- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
-	// only send the hit if the app is not active
-	if (application.applicationState != UIApplicationStateActive) {
-		[ADBMobile trackPushMessageClickThrough:userInfo];
-	}
-	completionHandler(UIBackgroundFetchResultNoData);
-}
+//// app target < iOS 7
+//- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
+//    // only send the hit if the app is not active
+//    if (application.applicationState != UIApplicationStateActive) {
+//        [ADBMobile trackPushMessageClickThrough:userInfo];
+//    }
+//}
+//
+//// app target >= iOS 7
+//- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
+//    // only send the hit if the app is not active
+//    if (application.applicationState != UIApplicationStateActive) {
+//        [ADBMobile trackPushMessageClickThrough:userInfo];
+//    }
+//    completionHandler(UIBackgroundFetchResultNoData);
+//    
+//    NSLog(@"didReceiveRemoteNotification:: %@",userInfo);
+//}
 
 - (NSString *) storyboardName {
 	return UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone ? kPhoneStoryboard : kPadStoryboard;
